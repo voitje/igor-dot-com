@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "declaration": true,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "noEmit": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "baseUrl": ".",
+    "paths": {
+      "Components/*": ["src/components/*"],
+      "Constants/*": ["src/constants/*"],
+      "Pages/*": ["src/pages/*"],
+      "Services/*": ["src/services/*"],
+      "Static/*": ["src/static/*"],
+      "Store/*": ["src/store/*"],
+      "Types/*": ["src/types/*"],
+      "Utils/*": ["src/utils/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
